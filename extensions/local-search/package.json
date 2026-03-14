@@ -1,0 +1,15 @@
+{
+  "name": "@openclaw/local-search",
+  "version": "2026.3.13",
+  "private": true,
+  "description": "Local search plugin wrapping DDGS API",
+  "type": "module",
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.48"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
